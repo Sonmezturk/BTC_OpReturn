@@ -1,0 +1,22 @@
+{
+  "name": "BTC_OpReturn",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node ./app.js",
+    "start:migration": "node ./migration/index.js"
+  },
+  "dependencies": {
+    "bitcoind-rpc": "^0.9.1",
+    "express": "~4.16.1",
+    "pg": "^8.7.3",
+    "typeorm": "^0.3.6",
+    "winston": "^3.7.2",
+    "zeromq": "^5.2.8"
+  },
+  "devDependencies": {
+    "eslint": "^8.17.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.26.0"
+  }
+}
